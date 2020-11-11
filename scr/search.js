@@ -3,15 +3,17 @@ window.onload = function() {
 }
 
 function initSearchBar() {
-    document.getElementById("search-bar-input").value = ""
-    document.getElementById("search-bar-input").focus()
+    const searchBarInput = document.getElementById("search-bar-input")
+    
+    searchBarInput.value = ""
+    searchBarInput.focus()
 
-    document.getElementById("search-bar-input").addEventListener("keypress", (event) => {
-        if (event.key != 'Enter') return
+    searchBarInput.addEventListener("keypress", (event) => {
+        if (event.key !== 'Enter') return
 
-        googleSearchUrl = "https://www.duckduckgo.com/?q="
-        otherThing = "&atb=v225-7&ia=web"
-        query = document.getElementById("search-bar-input").value.replace(/\ /g, "+")
-        document.location = googleSearchUrl + query + otherThing
+        const searchEnginer = "https://www.duckduckgo.com/?q="
+        const endQuery = "&atb=v225-7&ia=web"
+       
+        document.location = searchEnginer + searchBarInput.value.replace(/\ /g, "+") + endQuery
     })
 }
