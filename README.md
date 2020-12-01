@@ -10,7 +10,7 @@ All natural pine, faux fur and a bit of soho vibes for the classy minimalist.
 
 ### Info
 
-Live instance at http://calc.tobira.io/
+Live instance at https://calc.tobira.io/
 
 Best hosted with nginx. You can also just run the HTML file if you want it to be purely local.
 
