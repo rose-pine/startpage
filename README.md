@@ -20,4 +20,5 @@ Best hosted with nginx. You can also just run the HTML file if you want it to be
 
 ## Thanks to 
 
-- [ThatOneCalculator](https://twitter.com/that1calculator)
+- [ThatOneCalculator](https://github.com/thatonecalculator)
+- [okaabe](https://github.com/okaabe)
