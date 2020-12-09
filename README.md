@@ -17,3 +17,7 @@ Best hosted with nginx. You can also just run the HTML file if you want it to be
 ### Screenshots
 
 ![preview](https://i.imgur.com/Sx56VJw.png)
+
+## Thanks to 
+
+- [ThatOneCalculator](https://twitter.com/that1calculator)
