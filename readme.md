@@ -1,6 +1,6 @@
 <img src="https://github.com/rose-pine/rose-pine-theme/raw/main/assets/icon.png" width="64" />
 
-# Rosé Pine
+# Rosé Pine html/css startpage
 
 > Maintained by our lovely community ☺️
 
