@@ -13,7 +13,9 @@
 
 ## Usage
 
-Clone and host with any static hosting (nginx, serve, basic-http-server, etc)
+1. `git clone https://github.com/rose-pine/startpage/`
+2. Edit `index.html` with links of your choice
+3. Host with any static hosting (nginx, serve, basic-http-server, etc)
 
 ## Gallery
 
