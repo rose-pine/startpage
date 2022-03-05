@@ -1,23 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap');
-
-@font-face {
-	font-family: 'Fira Code', monospace;
-}
-
-/*Change font and colors*/
 :root {
-	--font: "Fira Code";
-	--bgcolor:  #1F1D29;
-	--linkcolor: #FFFFFF;
+	--font: "Cartograph CF";
+	--bgcolor: #1f1d2e;
+	--linkcolor: #e0def4;
 }
 
 /*-----------------------------------------------------------*/
 input {
     height: inherit;
     width: 680px;
-    background: #1F1D29;
-    color: #EABBB9;
-    font: "Fira Code";
+    background: #26233a;
+    color: #ebbcba;
+    font: "Cartograph CF";
     font-weight: mono;
     line-height: 1.8em;
     box-shadow: 1px 1px 3px #000000;
@@ -35,7 +28,7 @@ body {
 	background-image: url('../background/bg.jpg');
 	background-repeat : no-repeat;
 */
-	background-color: #1F1D29;
+	background-color: #191724;
 	background-size: cover;
 }
 
@@ -80,15 +73,14 @@ a {
 }
 
 a:hover {
-	color: #EA6F91;
+	color: #9ccfd8;
 }
 
 .time {
-    font-family: "Fira Code"; monospace;
+    font-family: "Cartograph CF"; monospace;
     font-weight: mono;
     font-size: 5.5rem;
     margin: 50px 0px 50px 0px;
     color: var(--linkcolor);
-	text-shadow: -5px 5px 0px #34738E, -10px 10px 0px #C3A5E6, -15px 15px 0px #9BCED7;
+	text-shadow: -5px 5px 0px #eb6f92, -10px 10px #f6c177, -15px 15px 0px #C3A5E6, -20px 20px 0px #31748f;
 }
-
