@@ -1,52 +1,60 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Home</title>
-		<meta charset ="UTF-8">
-		<link rel="stylesheet" type="text/css" href="style/style.css">
-		<link rel="shortcut icon" href="icon/buildings (1).png">
-	</head>
-<body>
-<div class="everything">
-	<div id="time" class="time"></div>
-	<form action="https://gowogle.voring.me/search" method="GET">
-            <input autofocus name="q" class="search" type="search" id="search-bar-input" placeholder="" autofocus>
-        </form>
-	<div class="box">
-		<div class="link">
-			<ul>
-				<li><a href="https://stop.voring.me">misskey</a></li>
-				<li><a href="https://pixelfed.social/i/web">pixelfed</a></li>
-				<li><a href="https://github.com">github</a></li>
-				<li><a href="https://reddit.com">reddit</a></li>
-			</ul>
-		</div>
-		<div class="link">
-			<ul>
-				<li><a href="https://youtube.com">youtube</a></li>
-				<li><a href="https://soundcloud.com/">soundcloud</a></li>
-				<li><a href="https://zoro.to">zoro</a></li>
-				<li><a href="https://tilvids.com">peertube</a></li>
-			</ul>
-		</div>
-		<!-- Feel free to add more divs here -->
-	</div>
-</div>
-<script>
-function updateClock() {
-	let date = new Date();
-	let hours = date.getHours();
-	let minutes = date.getMinutes();
-	let ampm = hours >= 12 ? 'pm' : 'am';
-	hours = hours % 12;
-	hours = hours ? hours : 12;
-	minutes = minutes < 10 ? '0'+minutes : minutes;
-	let time = hours + ':' + minutes + ' ' + ampm;
-	document.getElementById('time').innerHTML = time;
-	setTimeout(updateClock, 1000);
-}
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="style/style.css" />
+    <link rel="shortcut icon" href="favicon.png" />
+  </head>
+  <body>
+    <div class="everything">
+      <div id="time" class="time"></div>
+      <form action="https://gowogle.voring.me/search" method="GET">
+        <input
+          autofocus
+          name="q"
+          class="search"
+          type="search"
+          id="search-bar-input"
+          placeholder=""
+          autofocus
+        />
+      </form>
+      <div class="box">
+        <div class="link">
+          <ul>
+            <li><a href="https://stop.voring.me">misskey</a></li>
+            <li><a href="https://pixelfed.social/i/web">pixelfed</a></li>
+            <li><a href="https://github.com">github</a></li>
+            <li><a href="https://reddit.com">reddit</a></li>
+          </ul>
+        </div>
+        <div class="link">
+          <ul>
+            <li><a href="https://youtube.com">youtube</a></li>
+            <li><a href="https://soundcloud.com/">soundcloud</a></li>
+            <li><a href="https://zoro.to">zoro</a></li>
+            <li><a href="https://tilvids.com">peertube</a></li>
+          </ul>
+        </div>
+        <!-- Feel free to add more divs here -->
+      </div>
+    </div>
+    <script>
+      function updateClock() {
+        let date = new Date();
+        let hours = date.getHours();
+        let minutes = date.getMinutes();
+        let ampm = hours >= 12 ? "pm" : "am";
+        hours = hours % 12;
+        hours = hours ? hours : 12;
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        let time = hours + ":" + minutes + " " + ampm;
+        document.getElementById("time").innerHTML = time;
+        setTimeout(updateClock, 1000);
+      }
 
-updateClock();
-</script>
-</body>
+      updateClock();
+    </script>
+  </body>
 </html>
